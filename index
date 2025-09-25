@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Zadania</title>
+</head>
+<body>
+    <h1>Zadania:</h1>
+
+    <h2>Klasa 3:</h2>
+    <p>
+        Zadanie 12: 
+        <a href="https://spidereq.github.io/Strona/">Strona Powitalna</a>
+    </p>
+    <p>
+        Zadanie 13: 
+        <a href="https://spidereq.github.io/tabela_/">Tabele</a>
+    </p>
+
+    <h2>Klasa 4:</h2>
+    <p>
+        Zadanie 14: 
+        <a href="https://spidereq.github.io/kotwica/">Kotwica</a>
+    </p>
+</body>
+</html>
