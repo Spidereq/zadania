@@ -1,25 +1,134 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-    <meta charset="UTF-8">
-    <title>Zadania</title>
+  <meta charset="UTF-8">
+  <title>Poprawione Tabele</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      margin: 20px 0;
+      width: 250px;
+      font-family: sans-serif;
+      font-size: 14px;
+    }
+    th, td {
+      border: 1px solid black;
+      padding: 6px;
+      text-align: center;
+    }
+    .merged {
+      background-color: lightgreen;
+    }
+  </style>
 </head>
 <body>
-    <h1>Zadania: </h1>
-    <br>
-    <h2>Klasa 3: </h2>
-	<p>
-        Zadanie 12: 
-        <a href="https://spidereq.github.io/Strona/">Strona Powitalna</a>
-    </p>
-	<p>
-        Zadanie 13: 
-        <a href="https://spidereq.github.io/tabela_/">Tabele</a>
-    </p>
-    <br>
-    <h2>Klasa 4: </h2>
-</body>
 
-</html>
+<table>
+  <tr>
+    <th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th>
+  </tr>
+  <tr>
+    <th>2</th>
+    <td>a</td>
+    <td class="merged">b</td>
+    <td class="merged">c</td>
+    <td>d</td>
+    <td>e</td>
+  </tr>
+  <tr>
+    <th>3</th>
+    <td>f</td>
+    <td>g</td>
+    <td>h</td>
+    <td>i</td>
+    <td class="merged">j</td>
+  </tr>
+  <tr>
+    <th>4</th>
+    <td>k</td>
+    <td>l</td>
+    <td>m</td>
+    <td>n</td>
+    <td class="merged">o</td>
+  </tr>
+  <tr>
+    <th>5</th>
+    <td class="merged">p</td>
+    <td class="merged">q</td>
+    <td class="merged">r</td>
+    <td>s</td>
+    <td>t</td>
+  </tr>
+  <tr>
+    <th>6</th>
+    <td class="merged">u</td>
+    <td class="merged">v</td>
+    <td class="merged">w</td>
+    <td>x</td>
+    <td>y</td>
+  </tr>
+</table>
 
 
+
+<table>
+  <tr>
+    <th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th>
+  </tr>
+  <tr>
+    <th>2</th>
+    <td>a</td>
+    <td class="merged" colspan="2">b,c</td>
+    <td>d</td>
+    <td>e</td>
+  </tr>
+  <tr>
+    <th>3</th>
+    <td>f</td>
+    <td>g</td>
+    <td>h</td>
+    <td>i</td>
+    <td class="merged" rowspan="2">j,o</td>
+  </tr>
+  <tr>
+    <th>4</th>
+    <td>k</td>
+    <td>l</td>
+    <td>m</td>
+    <td>n</td>
+  </tr>
+  <tr>
+    <th>5</th>
+    <td class="merged" colspan="3" rowspan="2">p,q,r,u,v,w</td>
+    <td>s</td>
+    <td>t</td>
+  </tr>
+  <tr>
+    <th>6</th>
+    <td>y</td>
+    <td>z</td>
+  </tr>
+</table>
+
+
+<table>
+  <tr>
+    <th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th>
+  </tr>
+  <tr>
+    <th>2</th>
+    <td>a</td>
+    <td>b</td>
+    <td>c</td>
+    <td>d</td>
+    <td>e</td>
+  </tr>
+  <tr>
+    <th>3</th><td>f</td><td>g</td><td>h</td><td>i</td><td>j</td></tr>
+  <tr>
+    <th>4</th><td>k</td><td>l</td><td>m</td><td>n</td><td class="merged" rowspan="2">o,u</td></tr>
+  <tr>
+    <th>5</th><td>p</td><td>q</td><td>r</td><td>s</td></tr>
+  <tr>
+    <th>6</th><td>t</td><td>v</td><td>w</td><td>x</td><td>y</td></tr>
+</table>
